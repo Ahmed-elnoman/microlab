@@ -1,0 +1,634 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.navbar
+{
+    background-color: #121212;
+    padding:0;
+}
+.navbar-brand:focus, .navbar-brand {
+    text-decoration: none;
+    color: #fff;
+}
+.navbar-brand:focus, .navbar-brand:hover {
+    text-decoration: none;
+    color: #fff;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: .5rem;
+    padding-left: .5rem;
+    color: #fff;
+}
+.navbar i
+{
+    color: #fff;
+    font-size: 18px;
+    margin-left: 30px;
+}
+.here
+{
+    height: 100vh;
+    background-color: #121212;
+}
+.here h2
+{
+    color: #fff;
+    padding-top: 150px;
+    font-size: 80px;
+    margin-left: 120px;
+}
+.here h2 span {
+    color: #c58f23;
+}
+.here p
+{
+    color: #fff;
+    font-size: 20px;
+    margin-left: 150px;
+}
+.here button {
+    color: #fff;
+    background-color: #c58f23;
+    font-size: 23px;
+    margin-left: 150px;
+}
+.lorem
+{
+    background-color: #c58f23;
+    /* height: 700px; */
+}
+.lorem h1
+{
+    color: #fff;
+    text-align: center;
+    padding-top: 50px;
+}
+.lorem h2
+{
+    color: #fff;
+    text-align: center;
+    padding-left: 200px;
+    margin-top: -30px;
+}
+.lorem h2 span
+{
+    color: #000;
+}
+.lorem img
+{
+    width: 550px;
+}
+.lorem p {
+    color: #c1b9b9;
+    padding-top: 180px;
+}
+.lorem p span {
+    color: #000;
+}
+.lorem hr {
+    padding: 0;
+    margin: 0;
+    margin-bottom: -2px;
+    background-color: #23262d;
+}
+.vision {
+    background-image: url("/r.png");
+    /* background-size: cover; */
+    background-size: contain;
+    height: 100vh;
+    color: #fff;
+}
+.vision h2 {
+    font-weight: bold;
+    padding-top: 190px;
+}
+.vision .vi_col {
+    padding-top: 10px;
+    color: #606060;
+}
+.PRICING
+{
+    background-color: #c58f23;
+    text-align: center;
+    padding-bottom: 100px;
+    padding-top: 20px;
+}
+.PRICING h1
+{
+    color: #ddd;
+    padding-top: 90px;
+    margin-bottom: 70px;
+    font-weight: bold;
+}
+.PRICING .p
+{
+    color: #ddd;
+    padding-top: 100px;
+}
+.PRICING p
+{
+    color: #ddd;
+}
+.PRICING .card
+{
+    background-color: #121212;
+    height: 300px;
+    margin-top: 14px;
+}
+.PRICING .card i
+{
+    color: #fff;
+    margin-top: 70px;
+    font-size: 50px;
+}
+.PRICING .card-title
+{
+    background-color: #2a2929;;
+    /* padding-bottom: 120px;
+    height: 1500px; */
+}
+.PRICING .card h5 {
+    color: #fff;
+    padding-top: 20px;
+    font-size: 19px;
+}
+.PRICING .card hr {
+    background-color: #c58f23;
+    margin-bottom: -1px;
+}
+.PRICING .card-title p
+{
+    margin: 0;
+    color: #c1b9b9;
+}
+.faster {
+    padding-top: 200px;
+}
+.faster h1 {
+    color: #fff;
+    padding-bottom: 0;
+}
+.avalible {
+    padding-top: 50px;
+}
+.avalible_text {
+    background-color: #121212;
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    height: 500px;
+}
+.avalible_text ul {
+    list-style: none;
+    line-height: 2.3;
+}
+.avalible_text li {
+    color: #c1b9b9;
+}
+.avalible .o {
+    margin-right: 210px;
+}
+.avalible .t {
+    margin-right: 130px;
+}
+.avalible_img {
+    margin-left: 90px;
+}
+.avalible_img img{
+    width: 540px;
+    margin-right: -90px;
+}
+ /* TUR  */
+.tur .row
+{
+    height: 100vh;
+}
+.tur .one
+{
+    background: #c58f23;
+}.tur .one p
+{
+    padding-top: 300px;
+    color: #ddd;
+    margin-left: 90px;
+    line-height: 9.px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.tur .nice
+{
+    background: #23262d;
+}
+.ahm {
+    background-color: #c58f23;
+    padding-top: 40px;
+}
+.ahm .row
+{
+    height: 100vh;
+    padding-top: 60px;
+}
+.ahm h1 {
+    text-align: center;
+    color: #fff;
+}
+.ahm p
+{
+    padding-top: 8px;
+    padding-bottom: 50px;
+    font-size: 15px;
+    color: rgb(218 218 218);
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.ahm .card {
+    border-radius: 20px;
+    box-shadow: 3px #c1b9b9;
+}
+.ahm .card h2 {
+    font-size: 20px;
+    /* color: #c58f23; */
+}
+.ahm .card h6 {
+    font-size: 14px;
+}
+.ahm .card .card-title img{
+    border-radius: 30px;
+    box-shadow: #ddd;
+    margin-top: 12px;
+    width: 220px;
+    /* height: 230px; */
+    margin-left: 8px;
+}
+.ahm .card a {
+    text-decoration: none;
+}
+.ahm .card svg {
+    color: #c1b9b9;
+    margin-left: 3px;
+}
+.ahm .card svg:hover {
+    color: rgb(37, 93, 225);
+}
+.claints {
+    background-color: #121212;
+    color: #fff;
+    padding-top: 90px;
+    padding-bottom: 120px;
+}
+.claints h1 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+.claints p {
+    text-align: center;
+    color: #c1b9b9;
+    padding-bottom: 100px;
+}
+.Checkout {
+    padding-top: 50px;
+    background-color: #000;
+    color: #fff;
+    height: 600px;
+}
+.Checkout .card {
+    background-color: #c58f23;
+    border-radius: 0;
+}
+.Checkout .card-title {
+    border-radius: 0;
+    margin: 0;
+}
+.Checkout .card .card-title img {
+    margin-top: 0;
+    margin-left: 0;
+    border-radius: 4px;
+    margin-left: -2px;
+    width: 240px;
+}
+.Checkout p {
+    font-size: 12px;
+    padding-top: 20px;
+    padding-bottom: unset;
+}
+.Checkout .card svg {
+    margin-left: 102px;
+    width: 40px;
+    height: 40px;
+    margin-bottom: -22px;
+    color: #c1b9b9;
+}
+
+.Checkout .card .svgs {
+    color: #c1b9b9;
+    width: 20px;
+    margin-left: -35px;
+    padding-top: 26px;
+}
+.OUR
+{
+    background: #121212;
+    height: 100vh;
+}
+.OUR h2
+{
+    color: #ddd;
+    text-align: center;
+    padding-top: 100px;
+    margin-bottom: 20px;
+}
+.OUR p
+{
+    color: #c1b9b9;
+    text-align: center;
+}
+.OUR .row
+{
+    margin-top: 70px;
+    text-align: center;
+    color: #fff;
+}
+.OUR h1
+{
+    font-weight: bolder;
+}
+.OUR .mc
+{
+    font-weight: bold;
+    margin-right: 20px;
+}
+.sit
+{
+    background: #594f11;
+    height: 100vh;
+    text-align: center;
+}
+.sit h4
+{
+    color: #ddd;
+    padding-top: 270px;
+    font-weight: bold;
+    text-align: center;
+}
+.SUBSCRIBE
+{
+    background: #c58f23;
+    height: 450px;
+    text-align: center;
+}
+.SUBSCRIBE h1
+{
+    color: #fff;
+    padding-top: 130px;
+}
+.SUBSCRIBE p
+{
+    color: #fff;
+    line-height: 9.px;
+}
+.SUBSCRIBE input
+{
+    width: 380px;
+    text-align: start;
+    margin-left: 30px;
+    height: 40px;
+    margin-top: 20px;
+    color: #606060;
+    text-align: left;
+    padding-left: 15px;
+    border: #fff;
+}
+.SUBSCRIBE button
+{
+    color: #fff;
+    margin-top: -5px;
+    height: 41px;
+    border: 0;
+    margin-left: -4px;
+}
+footer
+{
+    color: #ddd;
+    background: #23262d;
+}
+footer .ol, .mb
+{
+    text-align: left;
+}
+footer .mvv
+{
+    color: #ddd;
+    text-decoration: none;
+    list-style: none;
+    display: inline-flex;
+    margin-left: -440px;
+}
+footer .mvv li a
+{
+    color: #ddd;
+    border-radius: 2px solid#fff;
+    margin-left: 9px;
+    font-size: 24px;
+    text-decoration: none;
+} 
+footer .text-white
+{
+    text-decoration: none;
+}
+
+@media(max-width:768px){
+
+    .here p 
+    {
+        font-size: 20px;
+        text-align: center;
+        margin-left: 10px;
+    }
+    .here h2 
+    {
+        font-size: 47px;
+        margin-left: 33px;
+        text-align: center;
+    }
+    .lorem .oi
+    {
+        margin-left: 55px;
+        padding-top: 40px;
+        margin-top: -80px;
+        margin-bottom: 9px;
+    }
+    .lorem h1 {
+        margin-right: 130px;
+        padding-top: 10px;
+    }
+    .lorem h2 {
+        padding-bottom: 30px;
+        margin-left: -110px;
+    }
+    .lorem hr {
+        display: none;
+    }
+    .lorem p {
+        padding-top: 20px;
+        margin-left: 20px;
+    }
+    .lorem
+    {
+      height: 100%;
+    }
+    .lorem .card
+    {
+        margin-bottom: 9px;
+        width: 270px;
+        margin-left: 17px;
+    }
+    .lorem img {
+        width: 300px;
+    }
+    /* end lorem */
+
+    /* start vision  */
+    .vision {
+        background-size: cover;
+        padding-bottom: 50px;
+    }
+    .vision h2 {
+        padding-top: 50px;
+        text-align: center;
+    }
+    .vision p {
+        /* text-align: center; */
+        margin-left: 20px;
+        color: #ddd;
+    }
+    /* end vision */
+
+    /* start PRICING */
+    .PRICING
+    {
+        height: 100%;
+        padding-bottom: 10px;
+    }
+    .PRICING p {
+        margin-top: -130px;
+    }
+    .PRICING .card
+    {
+        margin-left: 65px;
+    }
+    .PRICING .card-title {
+        margin-right: 0;
+    }
+    /* end PRICING */
+
+    /* start faster */
+    .faster {
+        padding-top: 50px;
+    }
+    .faster img {
+        width: 300px;
+    }
+    .faster h1 {
+        font-size: 28px;
+    }
+    .faster .text_faster {
+        font-size: 20px;
+        padding-top: 80px;
+    }
+    /* end faster  */
+    
+    /* start avalible */
+    .avalible h1 {
+        padding-top: 20px;
+        font-size: 30px;
+        margin-right: 50px;
+        padding-bottom: 10px;
+    }
+    .avalible ul {
+        margin-top: -50px;
+    }
+    .avalible_img img{
+        width: 300px;
+        margin-left: -120px;
+    }
+    /* end avalible */
+    .tur
+    {
+        height: 100%;
+    }
+    .tur .one p
+    {
+        margin-left: 9px;
+    }
+    /* start ahm  */
+    .ahm {
+        padding-bottom: 990px;
+    }
+    .ahm p {
+        padding-bottom: 0;
+    }
+    .ahm .card {
+        margin-left: 73px;
+        margin-bottom: 20px;
+    }
+    .ahm .card h2  {
+        font-size: 20px;
+        font-weight: bolder;
+    }
+    .ahm .card h6 {
+        font-size: 14px;
+    }
+    .ahm a{
+        color: #c1b9b9;
+    }
+    /* end ahm  */
+
+    /* start checkout  */
+    .Checkout {
+        background-color: #121212;
+        padding-top: 50px;
+    }
+    .san_claints {
+        text-align: center;
+    }
+   .Checkout .card {
+        margin-left: 70px;
+        margin-bottom: 50px;
+   }
+   .Checkout .card svg {
+    color: #c1b9b9;
+   }
+   /* end chenckout  */
+
+   /* start sit  */
+   .sit {
+        height: 350px;
+   }
+   .sit h4 {
+    padding-top: 100px;
+   }
+   /* end sit */
+
+   /* satrt SUBSCRIBE */
+   .SUBSCRIBE {
+    height: 300px;
+   }
+   .SUBSCRIBE h1 {
+    padding-top: 50px;
+    font-size: 26px;
+   }
+   .SUBSCRIBE p {
+    font-weight: 23px;
+   }
+   .SUBSCRIBE input {
+        width: 250px;
+   }
+
+
+   /* end SUBSCRIBE */
+}
+    
