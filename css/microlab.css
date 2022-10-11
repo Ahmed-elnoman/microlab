@@ -95,7 +95,7 @@
     background-color: #23262d;
 }
 .vision {
-    background-image: url("/r.png");
+    background-image: url("../Photos/r.png");
     /* background-size: cover; */
     background-size: contain;
     height: 100vh;
@@ -332,7 +332,7 @@
 .OUR
 {
     background: #121212;
-    height: 100vh;
+    height: 500px;
 }
 .OUR h2
 {
@@ -361,59 +361,41 @@
     font-weight: bold;
     margin-right: 20px;
 }
-.sit
-{
-    background: #594f11;
-    height: 100vh;
-    text-align: center;
-}
-.sit h4
-{
-    color: #ddd;
-    padding-top: 270px;
-    font-weight: bold;
-    text-align: center;
-}
-.SUBSCRIBE
-{
-    background: #c58f23;
-    height: 450px;
-    text-align: center;
-}
-.SUBSCRIBE h1
-{
-    color: #fff;
-    padding-top: 130px;
-}
-.SUBSCRIBE p
-{
-    color: #fff;
-    line-height: 9.px;
-}
-.SUBSCRIBE input
-{
-    width: 380px;
-    text-align: start;
-    margin-left: 30px;
-    height: 40px;
-    margin-top: 20px;
-    color: #606060;
-    text-align: left;
-    padding-left: 15px;
-    border: #fff;
-}
-.SUBSCRIBE button
-{
-    color: #fff;
-    margin-top: -5px;
-    height: 41px;
-    border: 0;
-    margin-left: -4px;
-}
+
+
+ /* start work */
+    .work {
+        background-color: #121212;
+        height: 300px;
+        color: #fff;
+    }
+    .work h1 {
+        font-size: 98px;
+    }
+    .work h2 {
+        margin-left: 80px;
+        font-size: 95px;
+    }
+    .work p {
+        padding-top: 90px;
+    }
+    .work button {
+        background-color: #c58f23;
+        border-radius: 10px;
+        color: #fff;
+    }
+    .work hr {
+        background-color: #c1b9b9;
+        height: 2px;
+        margin-top: 50px;
+        border-radius: 10px;
+    }
+ /* end work  */
+ /* start footer  */
 footer
 {
     color: #ddd;
-    background: #23262d;
+    background: #121212;
 }
 footer .ol, .mb
 {
@@ -425,7 +407,7 @@ footer .mvv
     text-decoration: none;
     list-style: none;
     display: inline-flex;
-    margin-left: -440px;
+    margin-left: -210px;
 }
 footer .mvv li a
 {
@@ -435,11 +417,30 @@ footer .mvv li a
     font-size: 24px;
     text-decoration: none;
 } 
+footer input {
+    height: 41px;
+    width: 47%;
+    border-radius: 8px;
+    border: 0;
+    padding-bottom: 6px;
+    padding-left: 15px;
+    background-color: #c1b9b9;
+}
+footer button {
+    background-color: #c58f23;
+    color: #fff;
+}
+footer .mb img {
+    width: 200px;
+    margin-left: 90px;
+    margin-top: -20px;
+    margin-bottom: -82px;
+}
 footer .text-white
 {
     text-decoration: none;
 }
-
+ /* end footer  */
 @media(max-width:768px){
 
     .here p 
