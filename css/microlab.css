@@ -440,6 +440,40 @@ footer .text-white
 {
     text-decoration: none;
 }
+
+ /* start blog pages  */
+.blog {
+    background-color: #c58f23;
+    margin-bottom: -10px;
+    height: 70%;
+}
+.blog h3 {
+    color: #fff;
+}
+
+.footer {
+    background-color: #c58f23;
+    color: #121212;
+    padding: 20px;
+    text-align: center;
+    
+}
+.footer  a {
+    margin-left: 20px;
+}
+.footer svg {
+    width: 25px;
+    height: 21px;
+}
+/* .blog .imgs {
+    padding-top: 60px;
+}
+.blog .imgs svg {
+    color: #fff;
+
+
+ 
+ /* end blog pages  */
  /* end footer  */
 @media(max-width:768px){
 
